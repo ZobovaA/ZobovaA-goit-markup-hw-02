@@ -3,7 +3,8 @@
   background: #f5f4fa;
 }
 
-.button-menu:hover {
+.button-menu:hover,
+:focus {
   color: #ffffff;
   background: #2196f3;
 }
