@@ -9,20 +9,18 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.logo-websudio {
+.logo {
   font-family: "Raleway", sans-serif;
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
-  font-family: Raleway;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+}
+
+.colortext {
+  color: black;
 }
 
 a {
@@ -41,21 +39,7 @@ header {
   background-color: #ffffff;
 }
 
-.header-link {
-  color: var(--main-fonts-color);
-  text-decoration: none;
-  width: 49px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-
-address {
+.header-contacts {
   text-decoration: none;
   font-style: normal;
   color: var(--secondary-fonts-color);
@@ -64,8 +48,15 @@ address {
   line-height: 1.14;
 }
 
-.header-link:focus,
-.header-link:hover {
+.header-links {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--main-fonts-color);
+}
+
+.header-links:focus,
+.header-links:hover {
   color: #2196f3;
 }
 /*Hero section*/
@@ -119,4 +110,18 @@ button:hover {
 
 footer {
   background-color: var(--top-bottom-background-color);
+}
+.adress-footer {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #ffffff;
+}
+
+.contacts-footer {
+  text-decoration: none;
+  font-style: normal;
+  color: var(--secondary-fonts-color);
 }
