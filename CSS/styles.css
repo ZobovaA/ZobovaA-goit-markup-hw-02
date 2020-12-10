@@ -11,6 +11,18 @@ body {
 
 .logo-websudio {
   font-family: "Raleway", sans-serif;
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
 }
 
 a {
@@ -21,7 +33,7 @@ header {
   background: #ffffff;
 }
 
-ul {
+li {
   list-style-type: none;
 }
 
@@ -32,6 +44,24 @@ header {
 .header-link {
   color: var(--main-fonts-color);
   text-decoration: none;
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+address {
+  text-decoration: none;
+  font-style: normal;
+  color: var(--secondary-fonts-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .header-link:focus,
