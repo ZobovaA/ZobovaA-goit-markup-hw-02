@@ -6,21 +6,21 @@
   --top-bottom-background-color: #2f303a;
 }
 body {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
 }
+
+.logo-websudio {
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
 header {
   background: #ffffff;
 }
-.logo-websudio {
-  width: 145px;
-  height: 31px;
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #2196f3;
-}
+
 ul {
   list-style-type: none;
 }
