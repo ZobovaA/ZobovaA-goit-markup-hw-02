@@ -1,10 +1,92 @@
-button {
-  color: #212121;
-  background: #f5f4fa;
+:root {
+  --main-fonts-color: #212121;
+  --secondary-fonts-color: #757575;
+  --sec-background-color: #f5f4fa;
+  --main-bck-color: #e5e5e5;
+  --top-bottom-background-color: #2f303a;
+}
+body {
+  font-family: Roboto;
+}
+header {
+  background: #ffffff;
+}
+.logo-websudio {
+  width: 145px;
+  height: 31px;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+ul {
+  list-style-type: none;
 }
 
-button:hover,
-:focus {
+header {
+  background-color: #ffffff;
+}
+
+.header-link {
+  color: var(--main-fonts-color);
+  text-decoration: none;
+}
+
+.header-link:focus,
+.header-link:hover {
+  color: #2196f3;
+}
+/*Hero section*/
+.hero {
+  background-color: #2f303a;
+}
+.hero-h {
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.button-hero {
   color: #ffffff;
   background: #2196f3;
+}
+
+button:focus,
+button:hover {
+  color: #ffffff;
+  background: #2196f3;
+}
+
+/*main*/
+.title2 {
+  color: var(--main-fonts-color);
+}
+.title3 {
+  color: var(--main-fonts-color);
+}
+.description {
+  color: var(--secondary-fonts-colo);
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.main-section {
+  background-color: var(--sec-background-color);
+}
+
+/*footer*/
+
+footer {
+  background-color: var(--top-bottom-background-color);
 }
