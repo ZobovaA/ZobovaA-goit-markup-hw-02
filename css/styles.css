@@ -31,16 +31,11 @@ a {
   text-decoration: none;
 }
 
-header {
-  background: #ffffff;
-}
-
 li {
   list-style-type: none;
 }
-
-header {
-  background-color: #ffffff;
+header{
+  background: #FFFFFF;
 }
 
 .header-contacts {
@@ -87,9 +82,20 @@ header {
 }
 
 .button-hero {
+  color :var(--main-bck-color) ;
+  background: var(--accent-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+}
+button{
   color :var(--main-fonts-color) ;
   background: var(--sec-background-color);
-  font-family: inherit
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1,62;
 }
 
 button:focus,
@@ -98,21 +104,29 @@ button:hover {
   background: var(--accent-color);
 }
 
+
 /*main*/
 .title2 {
   color: var(--main-fonts-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
 }
 .title3 {
   color: var(--main-fonts-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
 }
 .description-index {
   color: var(--secondary-fonts-colo);
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
-}
-.main-section {
-  background-color: var(--sec-background-color);
+  }
+
+
+.main-section2 {
+background-color: var(--sec-background-color);
 }
 
 /*footer*/
