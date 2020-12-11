@@ -4,6 +4,7 @@
   --sec-background-color: #f5f4fa;
   --main-bck-color: #e5e5e5;
   --top-bottom-background-color: #2f303a;
+  --accent-color: #2196f3;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -47,6 +48,10 @@ header {
   font-size: 14px;
   line-height: 1.14;
 }
+.header-contacts:focus,
+.header-contacts:hover {
+  color: var(--accent-color);
+}
 
 .header-links {
   font-weight: 500;
@@ -57,7 +62,7 @@ header {
 
 .header-links:focus,
 .header-links:hover {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /*Hero section*/
 .hero {
@@ -80,13 +85,13 @@ header {
 
 .button-hero {
   color: #ffffff;
-  background: #2196f3;
+  background: var(--accent-color);
 }
 
 button:focus,
 button:hover {
   color: #ffffff;
-  background: #2196f3;
+  background: var(--accent-color);
 }
 
 /*main*/
