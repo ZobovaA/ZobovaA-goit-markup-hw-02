@@ -101,7 +101,7 @@ button:hover {
 .title3 {
   color: var(--main-fonts-color);
 }
-.description {
+.description-index {
   color: var(--secondary-fonts-colo);
   font-size: 16px;
   line-height: 1.19;
@@ -130,3 +130,20 @@ footer {
   font-style: normal;
   color: var(--secondary-fonts-color);
 }
+
+/*Portfolio*/
+.hidden-h1 {
+  visibility: hidden;
+}
+.descrip-portfolio {
+  color: var(--main-fonts-color);
+  font-size: 18px;
+  line-height: 2;
+}
+.project-name-p {
+  color: var(--secondary-fonts-color);
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+s
