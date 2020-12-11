@@ -24,6 +24,9 @@ body {
   color: black;
 }
 
+.colortext_bottom{
+  color:var(--main-bck-color);
+}
 a {
   text-decoration: none;
 }
@@ -84,8 +87,9 @@ header {
 }
 
 .button-hero {
-  color: #ffffff;
-  background: var(--accent-color);
+  color :var(--main-fonts-color) ;
+  background: var(--sec-background-color);
+  font-family: inherit
 }
 
 button:focus,
