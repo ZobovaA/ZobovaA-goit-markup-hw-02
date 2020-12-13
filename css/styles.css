@@ -117,6 +117,7 @@ button:hover {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  text-transform: uppercase;
   
 }
 
@@ -135,7 +136,7 @@ color:var(--secondary-fonts-color);
 
 .main-section2 {
 background-color: var(--sec-background-color);
-text-transform: uppercase;
+
 }
 
 /*footer*/
@@ -159,7 +160,7 @@ footer {
 }
 
 /*Portfolio*/
-.hidden-h1 {
+.hidden-h {
   visibility: hidden;
 }
 .descrip-portfolio {
