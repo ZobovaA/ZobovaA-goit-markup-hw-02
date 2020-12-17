@@ -6,8 +6,51 @@
   --top-bottom-background-color: #2f303a;
   --accent-color: #2196f3;
 }
+a {
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+li {
+  list-style-type: none;
+}
 body {
   font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.main-nav {
+  display: flex;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.item-links:not(:last-child) {
+  margin-right: 50px;
+}
+
+.nav-links.header-links {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .logo {
@@ -18,32 +61,23 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+  margin-right: 93px;
+  width: 145px;
 }
 
+.adress-header {
+  margin-left: auto;
+}
+
+.colortext_bottom {
+  color: var(--main-bck-color);
+}
 .colortext {
   color: black;
 }
 
-.colortext_bottom{
-  color:var(--main-bck-color);
-}
-a {
-  text-decoration: none;
-}
-
-p, h1, h2, h3{
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-ul{
-  margin: 0;
-}
-li {
-  list-style-type: none;
-}
-header{
-  background: #FFFFFF;
+header {
+  background: #ffffff;
 }
 
 .header-contacts {
@@ -54,6 +88,7 @@ header{
   font-size: 14px;
   line-height: 1.14;
 }
+
 .header-contacts:focus,
 .header-contacts:hover {
   color: var(--accent-color);
@@ -64,6 +99,7 @@ header{
   font-size: 14px;
   line-height: 1.14;
   color: var(--main-fonts-color);
+  padding: 32px 0;
 }
 
 .header-links:focus,
@@ -90,20 +126,20 @@ header{
 }
 
 .button-hero {
-  color :var(--main-bck-color) ;
+  color: var(--main-bck-color);
   background: var(--accent-color);
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
 }
-button{
-  color :var(--main-fonts-color) ;
+button {
+  color: var(--main-fonts-color);
   background: var(--sec-background-color);
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1,62;
+  line-height: 1, 62;
 }
 
 button:focus,
@@ -111,7 +147,6 @@ button:hover {
   color: #ffffff;
   background: var(--accent-color);
 }
-
 
 /*main*/
 .title2 {
@@ -126,25 +161,22 @@ button:hover {
   font-size: 14px;
   line-height: 1.19;
   text-transform: uppercase;
-  
 }
 
-.sub-title3{
-font-size: 14px;
-line-height: 1.7;
-color:var(--secondary-fonts-color);
+.sub-title3 {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--secondary-fonts-color);
 }
 
 .description-index {
   color: var(--secondary-fonts-colo);
   font-size: 16px;
   line-height: 1.19;
-  }
-
+}
 
 .main-section2 {
-background-color: var(--sec-background-color);
-
+  background-color: var(--sec-background-color);
 }
 
 /*footer*/
@@ -182,4 +214,3 @@ footer {
   line-height: 1.9;
   letter-spacing: 0.03em;
 }
-s
