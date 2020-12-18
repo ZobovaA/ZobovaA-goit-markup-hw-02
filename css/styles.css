@@ -202,8 +202,13 @@ footer {
 }
 
 /*Portfolio*/
-.hidden-h {
-  visibility: hidden;
+.visually-hidden {
+  display: none;
+  position: absolute;
+  clip: rect(0000);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
 .descrip-portfolio {
   color: var(--main-fonts-color);
@@ -230,3 +235,11 @@ footer {
 .button {
   padding: 6px 22px;
 }
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+/* .card-set-items:not(:last-child) {
+  margin-right: 30px;
+} */
