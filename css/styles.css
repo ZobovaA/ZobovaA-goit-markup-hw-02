@@ -293,3 +293,8 @@ footer {
 .footer {
   padding: 60px 0;
 }
+
+header {
+  padding-bottom: 24px;
+  padding-top: 25px;
+}
