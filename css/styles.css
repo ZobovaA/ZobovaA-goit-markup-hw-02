@@ -263,12 +263,12 @@ footer {
   padding-bottom: 20px;
 }
 
-.logo {
+/* .logo {
   display: inline-block;
   padding-top: 60px;
   padding-bottom: 20px;
   margin-right: 0;
-}
+} */
 
 .footer-list {
   display: inline-block;
@@ -282,4 +282,10 @@ footer {
 
 .footer-phone {
   margin-bottom: 60px;
+}
+
+.footer .logo {
+  display: block;
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
