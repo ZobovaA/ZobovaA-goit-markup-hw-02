@@ -247,4 +247,18 @@ footer {
   flex-basis: calc(100% / 3-30px);
   margin-left: 30px;
   margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.descrip-portfolio,
+.project-name-p {
+  padding-left: 24px;
+}
+
+.descrip-portfolio {
+  padding-top: 20px;
+  padding-bottom: 4px;
+}
+.project-name-p {
+  padding-bottom: 20px;
 }
