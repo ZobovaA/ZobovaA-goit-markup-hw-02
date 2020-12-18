@@ -262,3 +262,24 @@ footer {
 .project-name-p {
   padding-bottom: 20px;
 }
+
+.logo {
+  display: inline-block;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  margin-right: 0;
+}
+
+.footer-list {
+  display: inline-block;
+}
+
+.contact-footers-item {
+  display: inline-block;
+  margin-bottom: 9px;
+  margin-top: 9px;
+}
+
+.footer-phone {
+  margin-bottom: 60px;
+}
