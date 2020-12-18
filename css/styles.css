@@ -329,3 +329,10 @@ header {
 .main-items .title3 {
   margin-bottom: 10px;
 }
+
+.main-sec-list {
+  display: flex;
+}
+.main-lis-items:not(:last-child) {
+  margin-right: 30px;
+}
