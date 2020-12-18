@@ -279,6 +279,17 @@ footer {
 
 .footer .logo {
   display: block;
-  margin-top: 60px;
-  margin-bottom: 20px;
+}
+
+.main {
+  margin-top: 24px;
+  margin-bottom: 78px;
+}
+
+.main-list {
+  display: flex;
+}
+
+.footer {
+  padding: 60px 0;
 }
