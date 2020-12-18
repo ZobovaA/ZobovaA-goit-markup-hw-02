@@ -214,3 +214,13 @@ footer {
   line-height: 1.9;
   letter-spacing: 0.03em;
 }
+
+.portfolio-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-items:not(:last-child) {
+  margin-right: 8px;
+}
